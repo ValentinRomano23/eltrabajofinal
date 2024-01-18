@@ -1,0 +1,45 @@
+body{
+
+    background-image: url(./../assets/biblioteca.jpg);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+label {
+    margin-right: 10px;
+    color: aliceblue;
+    }
+
+input, select, button {
+    margin-bottom: 10px;
+    }
+
+button {
+    cursor: pointer;
+    }
+
+#resultado {
+    margin-top: 20px;
+    }
+
+
+.titulo{
+    background-color: transparent;
+    text-align: center;
+} 
+
+.contenedor-biblioteca{
+    background-color: transparent;
+}
+#contenedor{
+    background-color: transparent;
+}
+h1{
+    color: aliceblue;
+}
+h2{
+    color:aliceblue
+}
+p{
+    color:rgb(252, 252, 252);
+}

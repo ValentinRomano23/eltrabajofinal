@@ -1,0 +1,18 @@
+[
+        
+    {
+        "titulo": "Harry Potter 1" ,
+        "autor" : "J. K. Rowling" ,
+        "prestado" : "No"
+   },
+       
+   {    
+        "titulo": "Moby Dick" ,
+        "autor" : "Herman Melville" ,
+        "prestado" : "No"
+   }
+   
+       
+   
+    
+]

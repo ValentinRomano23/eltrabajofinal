@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./js/app.js" defer></script>
+    <title>Biblioteca - Preentrega 3</title>
+</head>
+
+<body>
+
+    <h1 class="titulo">Crea tu biblioteca virtual</h1>
+
+    <section class="contenedor-biblioteca">
+            <div class="contenedor">
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" placeholder="Ingrese el título">
+                <label for="autor">Autor:</label>
+                <input type="text" id="autor" placeholder="Ingrese el autor">
+                <button onclick="agregarLibro()">Agregar Libro</button>
+            </div>
+        
+            <div class="contenedor">
+                <label for="filtrarEstado">Filtrar por estado:</label>
+                <select id="filtrarEstado">
+                    <option value="todos">Todos</option>
+                    <option value="prestados">Prestados</option>
+                    <option value="disponibles">Disponibles</option>
+                </select>
+                <button onclick="filtrarLibros()">Filtrar</button>
+            </div>
+        
+            <div class="contenedor" id="resultado"></div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
